@@ -18,9 +18,6 @@ func main() {
 		log.Fatal(err)
 	}
 
-	passward := "P@ssw0rd"
-	log.Println(passward)
-
 	h := handler.NewApplication(db)
 
 	e := echo.New()
